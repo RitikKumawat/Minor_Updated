@@ -24,7 +24,7 @@ def fraud_prediction(input_data):
 def main():
 #     st.title("Credit Card Fraud Detector")
     html_temp = """ 
-    <div style="background-color:black;padding:10px">
+    <div style="background-color:tomato;padding:10px">
     <h2 style="color:white;text-align:center;">Credit card Fraud Detector</h2>
     </div>
     """
