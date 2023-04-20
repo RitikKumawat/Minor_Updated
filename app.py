@@ -30,9 +30,9 @@ def main():
     """
     st.markdown(html_temp,unsafe_allow_html=True)
 
-    distance_from_home = st.text_input("Distance from home")
-    distance_from_last_transaction = st.text_input("Distance from last transaction")
-    ratio_to_median_purchase_price = st.text_input("Ratio to median purchase price")
+    distance_from_home = st.slider("Distance from home",0.0,10632.723672)
+    distance_from_last_transaction = st.slider("Distance from last transaction",0.0,11851.104565)
+    ratio_to_median_purchase_price = st.slider("Ratio to median purchase price",0.0,10.0)
     repeat_retailer = st.text_input("Repeat retailer")
     used_chip = st.text_input("Used chip")
     used_pin_number = st.text_input("Used pin number")
